@@ -1,0 +1,492 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+:root{
+    --black:black;
+    --white:white;
+    --red:red;
+}
+/* .ncontainer{
+    border: 1px solid var(--black);
+} */
+.outercolumn{
+height: 100vh;
+/* border: 1px solid var(--red); */
+padding-left: 0%;
+padding-right: 0;
+}
+.burger{
+    
+    display: none !important ;
+    }
+ul{
+    padding: 0;
+    gap: 5px;
+} 
+ul li{
+    
+    list-style: none;
+    text-decoration: none;
+   
+    
+}
+.ncard{
+    padding-top: 1rem;
+margin-top: 1rem;
+
+}
+
+#column2{
+    overflow: scroll;
+}
+.logoslist{
+    display: flex;
+    height: 2rem;
+    padding: 0 2rem 0 2rem;
+    justify-content: space-between;
+}
+.logoslist ul{
+    padding: 0;
+
+} 
+.likes{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    outline: 2px solid white;
+}
+.likecircles{
+    display: flex;
+}
+.likecircles div{
+    background-image:url("https://faces-img.xcdn.link/image-lorem-face-621.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.likecircles p{
+    padding-left: 1rem ;
+}
+.profile{
+   
+    height: 2.5rem;
+    background-size: contain;
+    width: 2.5rem;
+    border: 2px solid white;
+    outline :2px solid crimson;
+}
+.profileul{
+    display: flex;
+}
+.nrow{
+    padding-left: 1rem;
+}
+.activeuser{
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+.activeuser li{
+    display: flex;
+   gap: 2rem;
+   padding-left:1rem;
+   line-height: 6rem;
+}
+.activeuserprofile{
+    height: 5rem;
+    width: 5rem;
+}
+.mainouterdiv{
+    padding: 2rem;
+    overflow: scroll;
+    padding-left: 0%;
+}
+.logo{
+    height: 8rem;
+    top: 0;
+    position: fixed;
+    width: 19%;
+
+}
+.mainouterdiv h3{
+    margin-top: 10rem;
+}
+.column3{
+    padding: 2rem;
+    overflow:scroll;
+    
+}
+.tags{
+    margin: 1rem;
+   
+   
+  
+    height: 4rem;
+    width: 6rem;
+   
+    margin-top: 0rem;
+   
+    overflow: scroll;
+    border: 2px solid white;
+        outline: 2px solid black;
+    
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+.liimg{
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    border: 2px solid white;
+  position: none;
+    outline: 2px solid crimson;
+}
+.profileuserlogo{
+    border-radius: 50%;
+   
+    height: 2.5rem;
+  
+    width: 2.5rem;
+    border: 2px solid white;
+  position: none;
+    outline: 2px solid crimson;
+}
+
+   .card-img-top{
+    height: 60vh;
+    margin-top: 1rem;
+   }
+#taggs1{
+    height: 24rem;
+    /* flex: 0 0 auto; */
+    display: grid;
+    grid-template-rows: repeat(2,5rem);
+    grid-template-columns: repeat;
+    grid-auto-columns: repeat(2,4rem);
+    grid-template-columns: repeat(2,8rem);
+    list-style: none;
+    /* grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,auto); */
+    
+
+    }
+    .mainouterdivtag{
+        /* border: 1px solid orange; */
+        height: 20rem;
+        background-color: gainsboro;
+        overflow: scroll;
+        padding: 1rem;
+        border-radius: 10px;
+        
+    }
+    .labeltag{
+        height: 2rem;
+        width: 4rem;
+        border: 2px solid white;
+        outline: 2px solid black;
+    height: 2rem;
+    width: 4rem;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+        
+    }
+    #labletagdesign{
+        display: flex;
+        gap: 1rem;
+    }
+    .changebuttn{
+        height: 2rem;
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(91, 151, 0);
+        border: 2px solid white;
+        outline: 2px solid #ffc0c0;
+        
+
+    }
+    .logo2{
+        font-size: 8rem;
+
+    }
+    .lastvideodiv{
+
+        margin-top: 1rem;
+       
+        height:400px;
+        padding: 1rem;
+        overflow: scroll; 
+        gap: 4rem;
+        display: grid;
+        grid-template-columns: repeat(2,5rem );
+        grid-template-rows: repeat(2,3rem);
+        justify-content: center;
+    }
+    .profileicon{
+       font-size: 9rem;
+       color:white;
+
+    }
+    .profileicondiv{
+       
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        height: 12rem;
+        padding: 1rem;
+        padding-top: 0;
+        background-color: black;
+        padding-left: 4rem;
+        border: 1px solid black;
+       
+
+    }
+    .dropdbtn{
+        width: 8rem;
+        background-color: rgb(0, 0, 0);
+    }
+    .middellogo{
+        display: none;
+    }
+ 
+    .listofccards{
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+        border: 1px solid orange;
+        color: white;
+        text-align: center;
+        padding: top;
+        padding-top: 4rem;
+        justify-content: just;
+        text-align: justify;
+        padding-left: 6rem;
+        font-size: xx-large;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        display: none;
+        
+    }
+    .listofccards ul li {
+        padding: 2rem;
+        width: 51rem;
+        background-color: gray;
+        list-style: none;
+
+        text-decoration: none;
+    
+    }
+    .crossicon{
+        color: white;
+        font-size: xx-large;
+
+    }
+    @media screen and (max-width:1024px) {
+        .brgr{
+            display: block !important;
+        }
+    }
+    @media(max-width:1024px)
+    {
+
+        body{
+        overflow: scroll;
+        }
+       
+        .profileicondiv{
+        display: flex;
+        justify-content: center;
+        }
+        .middellogo{
+            display: block;
+            margin-left:  20rem;
+        }
+    
+        /* .mainouterdiv{
+        display: none;
+        } */
+       
+        
+        .activeuser {
+            margin-top: 2rem;
+            /* margin-right: 6rem; */
+            padding-left: -2rem;
+            display: grid;
+            grid-template-columns: repeat(2,20rem);
+            grid-template-rows: repeat(2,8rem);
+            justify-content: center;
+            /* align-items: stretch; */
+            justify-items: end;
+
+        }
+        .mainouterdiv h3 {
+            margin-left: 22rem;
+            margin-top: 0%;
+        }
+        .activeuser p{
+      
+    width: 11rem;
+
+        }
+        .logo {
+            height: 11rem;
+          
+            top: 0;
+            position: relative;
+            width: 37%;
+            left: 22rem;
+        }
+        .lastvideodiv{
+            grid-template-columns: repeat(4,5rem );
+            grid-template-rows: repeat(4,3rem);
+            overflow: hidden;
+        
+        }
+        #taggs1{
+            grid-template-columns: repeat(6,9rem);
+            grid-template-rows: repeat(6,5rem);
+        }
+    }
+    @media(max-width:786px)
+    {
+
+        .activeuser {
+            margin-top: 2rem;
+            /* margin-right: 6rem; */
+            padding-left: -2rem;
+            display: grid;
+            grid-template-columns: repeat(2,20rem);
+            grid-template-rows: repeat(2,14rem);
+            justify-content: center;
+            /* align-items: stretch; */
+            justify-items: end;
+
+        }
+        .activeuser li p{
+            width: 10rem;
+        }
+
+        /* .activeuser h3{
+            margin-left: 24rem;
+            } */
+            .mainouterdiv h3 {
+                margin-left: 17rem;
+            
+            }
+          
+           
+
+        #taggs1{
+            grid-template-columns: repeat(5,8rem);
+            grid-template-rows: repeat(5,5rem);
+        }
+        .middellogo {
+            width: 37%;  
+            position: relative;
+            right: 3rem;
+        }
+            .logo{
+                left: 18rem;
+            }
+
+    }
+    @media(max-width:425px)
+    {
+        .middellogo{
+        position: relative;
+        height: 4rem;
+        display: block;
+        right: 11rem;
+        }
+        .burger{
+            margin-left: 1rem;
+        }
+        .titles{
+            padding-left: 2rem;
+        }
+        .lastvideodiv{
+            overflow: scroll;
+            grid-template-columns: repeat(2,5rem );
+    grid-template-rows: repeat(2,3rem);
+
+
+        }
+        .mainouterdiv h3 {
+                
+            margin-left: 9rem;
+        }
+        .logo{
+            width: 78%;
+    left: 9rem;
+        }
+        #taggs1 {
+            grid-template-columns: repeat(3,7rem);
+            grid-template-rows: repeat(3,5rem);}
+    }
+    @media(max-width:425px)
+    {
+
+    
+    .activeuser{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+    @media(max-width:375px)
+    {
+        .mainouterdiv h3 {
+                
+            margin-left: 8rem;
+        }
+        .logo{
+            
+    left: 8rem;
+        }
+        #taggs1 {
+            grid-template-columns: repeat(2,7rem);
+            grid-template-rows: repeat(2,5rem);
+        }
+        .activeuser li p {
+            width: 10rem;
+            font-size: 15px;
+        }        
+    }
+    @media(max-width:320px)
+    {
+
+
+       
+        .dropdbtn {
+            width: 4rem;
+        }
+        .middellogo {
+
+            right: 13rem;
+            width: 11rem;
+        
+        }
+        .mainouterdiv h3 {
+                
+            margin-left: 7rem;
+        }
+        .logo{
+            
+            left: 5rem;
+            width: 21rem;
+        }
+
+    
+    }
+
+
+
+   

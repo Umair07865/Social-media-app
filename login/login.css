@@ -1,0 +1,96 @@
+
+
+
+:root {
+    --links: rgb(72,114,155);
+    --textcolor: #ffffff;
+    --buttonback:rgb(67,132,64);
+    --contback:rgb(23,27,33);
+    --bodyback:rgb(14,17,22);
+    --field:rgba(255, 255, 255);
+  }
+body{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: var(--bodyback);
+}
+
+  .email{
+    color: var(--field);
+    background-color: var(--bodyback) ;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid var(--textcolor);
+
+  }
+  .email:active{
+    border: none !important;
+
+  }
+  
+  .password{
+    padding: 5px;
+ 
+    background-color: var(--bodyback) !important;
+   
+    color: var(--field);
+
+    border-radius: 5px;
+  
+  }
+  
+  .link{
+    color: var(--links);
+    text-decoration: none;
+
+  }
+  .link:hover{
+    color:var(--buttonback);
+  }
+.container{
+   border: 1px solid var(--contback);
+    background-color: var(--contback) ;
+    padding: 2rem;
+    border-radius: 5px;
+    /* margin-top: 5rem; */
+    color: var(--textcolor);
+    height: fit-content;
+    width: 40%;
+    
+    
+    box-shadow: 0px 0px 9px 0px var(--textcolor);
+}
+
+.linkdiv p{
+text-align: end;
+color: var(--textcolor);
+font-size: small;
+}
+.linkdiv p:hover{
+    color: var(--buttonback);
+}
+.secondcontainer{
+    border: 1px solid var(--contback);
+    height: 3rem;
+    margin-top: 1rem;
+    padding: 2px;
+    text-align: center;
+}
+.logo{
+    color: var(--textcolor);
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+}
+.logo i{
+    font-size: 4rem;
+
+}
+.logo h3{
+    margin-top: 3rem;
+    content: '\f11b';
+
+}

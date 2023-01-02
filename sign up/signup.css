@@ -1,0 +1,199 @@
+
+
+
+:root {
+    --links: rgb(72,114,155);
+    --textcolor: #ffffff;
+    --buttonback:rgb(67,132,64);
+    --contback:rgb(23,27,33);
+    --bodyback:rgb(14,17,22);
+    --field:rgba(255, 255, 255);
+  }
+body{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    /* background-color: var(--bodyback); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d6/1Lib1Ref_2020_social_media_graphic_background.png")
+}
+
+  .email{
+    color: var(--field);
+    background-color: var(--bodyback) ;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid var(--textcolor);
+
+  }
+  
+  /* .email:active{
+    border: none !important;
+    color: var(--textcolor) !important;
+
+  } */
+ 
+  
+  .password{
+    padding: 5px;
+ 
+    background-color: var(--bodyback) !important;
+   
+    color: var(--field);
+
+    border-radius: 5px;
+  
+  }
+  
+  .link{
+    color: var(--links);
+    text-decoration: none;
+
+  }
+  .link:hover{
+    color:var(--buttonback);
+  }
+.container{
+   border: 1px solid var(--contback);
+    background-color: var(--contback) ;
+    padding: 1rem;
+    border-radius: 5px;
+    /* margin-top: 5rem; */
+    color: var(--textcolor);
+    height: fit-content;
+    width: 48%;
+    padding-bottom: 0;
+    opacity: 83%;
+    
+    padding-left: 9rem !important;
+/*    
+    box-shadow: 0px 0px 9px 0px var(--textcolor); */
+}
+
+
+.linkdiv p{
+text-align: end;
+color: var(--textcolor);
+font-size: small;
+}
+.linkdiv p:hover{
+    color: var(--buttonback);
+}
+.secondcontainer{
+    border: 1px solid var(--contback);
+    height: 3rem;
+    margin-top: 1rem;
+    padding: 2px;
+    text-align: center;
+    padding-top: 12px;
+}
+.logo{
+    color: var(--textcolor);
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 5px;
+    padding-bottom: 1rem;
+}
+.logo i{
+    font-size: 4rem;
+
+}
+.logo h3{
+    margin-top: 1rem;
+    content: '\f11b';
+
+}
+#checkbox{
+    border-radius: 50%;
+    position: relative;
+    top: 1.6rem;
+    right: 13rem;
+}
+.checklab{
+    margin-left: 2rem;
+}
+
+
+@media(max-width:1024px)
+{
+    .container{
+        padding: 0;
+        padding-left: 5rem !important;
+        padding-top: 2rem;
+
+    }
+    #checkbox{
+        right: 10rem;
+
+    }
+    .secondcontainer{
+        padding: 1rem;
+    }
+}
+@media(max-width:786px)
+{
+    .container{
+        padding: 0;
+        padding-left: 3rem !important;
+        padding-top: 2rem;
+
+    }
+    #checkbox{
+        right: 7.5rem;
+
+    }
+    .secondcontainer{
+        padding: 1rem;
+    }
+}
+@media(max-width:485px)
+{
+    .container{
+        padding: 0;
+        padding-left: 3rem !important;
+        padding-top: 2rem;
+        width: 81%;
+        padding-right: 2rem !important;
+
+    }
+    #checkbox{
+        right: 7.5rem;
+
+    }
+    .secondcontainer{
+        padding: 0rem;
+    }
+}
+@media(max-width:485px)
+{
+    .container{
+        padding: 3px;
+        
+        padding-top: 2rem;
+        width: 100%;
+       ;
+
+    }
+    #checkbox{
+        right: 7.5rem;
+
+    }
+    .secondcontainer{
+        padding: 0rem;
+        
+    }
+    .checklab{
+        margin-left: 1rem;
+    }
+}
+@media(max-width:1464px)
+{
+    
+    .secondcontainer{
+      text-align:initial !important;
+        
+    }
+
+}

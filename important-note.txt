@@ -1,0 +1,5 @@
+
+
+ Hello there as you know this website is based on the api fetching in this project there 
+ is 0 error but while fetching the data 
+ it will take a couple of time to load so wait a lil bit for that for the best interaction with website.
